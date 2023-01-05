@@ -138,11 +138,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = True
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATIC_ROOT =os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_ROOT='%s/app_demo_grapql/' %BASE_DIR
+MEDIA_URL= '/media/'
 CKEDITOR_UPLOAD_PATH = 'static/content/ckeditor/'
 
 # Default primary key field type
