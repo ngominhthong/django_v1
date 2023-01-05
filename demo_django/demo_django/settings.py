@@ -83,11 +83,12 @@ WSGI_APPLICATION = 'demo_django.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'demograpql',
-        'USER':'root',
-        'PASSWORD':'',
-        'HOST':''
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'railway',
+        'USER':'postgres',
+        'PASSWORD':'h25bwERgwx0AQ3ZOcvHt',
+        'HOST':'containers-us-west-132.railway.app',
+        'PORT':'7183',
     }
 }
 
